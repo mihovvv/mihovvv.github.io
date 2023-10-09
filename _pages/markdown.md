@@ -1,11 +1,13 @@
 ---
-permalink: /markdown/
+layout: archive
 title: "CV"
+permalink: /markdown/
 author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
+redirect_from:
+  - /resume
 ---
+
+{% include base_path %}
 
 Education
 ======
