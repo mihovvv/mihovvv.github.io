@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   #- title: "Talks"
-    url: /talks/    
+    #url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
@@ -19,4 +19,4 @@ main:
     url: /cv/
     
   #- title: "Guide"
-    url: /markdown/
+    #url: /markdown/
