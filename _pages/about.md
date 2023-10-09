@@ -9,7 +9,10 @@ redirect_from:
 ---
 
 🧪 The young researcher in organic chemistry
+
 🏋🏻 The crazy gymrat 
+
 👨🏻‍🎓 HSE student
+
 📚 I'm currently creating course about aldol condensation on Stepik
 
