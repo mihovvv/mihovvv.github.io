@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include droplist %}
+{% include droplist.html %}
 
 Education
 ======
