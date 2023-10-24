@@ -1,5 +1,3 @@
-{% include base_path %}
-{% include droplist.html %}
 ---
 permalink: /
 title: "hello, i'm Misha💪🏻"
