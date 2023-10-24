@@ -8,7 +8,22 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include droplist.html %}
+<form>
+                <label for="pages">Navigation:</label>
+                <select id="pages" name="pages" onchange="handlePageChange()">
+                  <option value="https://mihovvv.github.io/">Main page</option>
+                  <option value="https://mihovvv.github.io/cv/">CV</option>
+                  <option value="https://mihovvv.github.io/portfolio/">Portfolio</option>
+                </select>
+            </form>
+            <script>
+              function handlePageChange() {
+                const selectElement = document.getElementById('pages');
+                const selectedPage = selectElement.value;
+                console.log(selectedPage)
+                window.location.replace(selectedPage);
+              }
+            </script>
 
 Education
 ======
