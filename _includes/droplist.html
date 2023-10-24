@@ -1,7 +1,6 @@
-<% include f.js %>
 <form>
   <label for="pages">Navigation:</label>
-  <select id="pages" name="pages" onchange="handlePageChange()">
+  <select id="pages" name="pages" onchange="window.location.href=this.options[this.selectedIndex].value">
     <option value="https://mihovvv.github.io/"><a href="https://mihovvv.github.io/" style="color: red">Main page</a></option>
     <option value="https://mihovvv.github.io/cv/">CV</option>
     <option value="https://mihovvv.github.io/portfolio/">Portfolio</option>
