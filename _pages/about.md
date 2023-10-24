@@ -1,4 +1,4 @@
-{% include droplist3.html %}
+{% include droplist72.html %}
 ---
 permalink: /
 title: "hello, i'm Misha💪🏻"
